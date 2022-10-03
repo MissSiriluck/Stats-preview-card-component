@@ -73,6 +73,7 @@ example as below:
 ### Useful resources
 
 - [w3schools](https://www.w3schools.com/cssref/sel_before.asp) - learn more CSS ::before Selector
+- [power em units css](https://www.sitepoint.com/power-em-units-css/) - learn more em unit
 
 ## Author
 
