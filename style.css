@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-h1 {
+body {
+    margin: 0;
+    background-color: #090b1a;
+}
+h1, p {
     font-family: 'Inter', sans-serif;
 }
 /* h1 {
     font-family: 'Inter', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
 } */
-body {
-    margin: 0;
-    background-color: #090b1a;
-}
 .container {
     display:flex;
     justify-content: center;
@@ -40,10 +40,17 @@ body {
 }
 h1 {
     margin: 0;
-    padding-bottom: 7.7%;
+    padding-bottom: 6.8%;
     color: #ffffff;
     font-size: 36px;
     font-weight: 700;
+}
+p {
+    margin: 0;
+    color: #ffffffbf;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
 }
 @media screen and (max-width: 768px){
     .img-mobile {
