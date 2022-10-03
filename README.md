@@ -14,7 +14,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-<!-- - [Acknowledgments](#acknowledgments) -->
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -40,47 +40,44 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Desktop-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+**em unit**
 
-To see how you can add code snippets, see below:
+**CSS ::before Selector**
+The ::before selector inserts something before the content of each selected element(s).
+Use the content property to specify the content to insert.
+**Ps.** I use this for image color overlay by CSS.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+example as below:
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.img-container:before {
+    content: "";
+    background-color: ;
+    display: ;
+    position: ;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+<!-- ```html
+<h1>Some HTML code I'm proud of</h1>
+``` -->
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Redesign adding some interactive for this component.
+- Coding by React, Vue, SCSS, boostrab or some other that you want to learn more.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [w3schools](https://www.w3schools.com/cssref/sel_before.asp) - learn more CSS ::before Selector
 
 ## Author
 
 - Frontend Mentor - [@Siriluck T.](https://www.frontendmentor.io/profile/MissSiriluck)
 
-<!-- ## Acknowledgments
+## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.** -->
+🌼 Thank great guiline from 👉 [codepen](https://codepen.io/Krayen/pen/ZXavwM) that inspired my solution.
