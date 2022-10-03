@@ -68,7 +68,7 @@ example as below:
 ### Continued development
 
 - Redesign adding some interactive for this component.
-- Coding by React, Vue, SCSS, boostrab or some other that you want to learn more.
+- Coding by React, Vue, SCSS, boostrab and else.
 
 ### Useful resources
 
